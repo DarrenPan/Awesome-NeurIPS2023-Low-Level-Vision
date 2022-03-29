@@ -128,6 +128,11 @@ A Collection of Papers and Codes in NeurIPS2021 related to Low-Level Vision
 <a name="ImageDeblurring"></a>
 ## Image Deblurring
 
+**Gaussian Kernel Mixture Network for Single Image Defocus Deblurring**
+- Paper: https://openreview.net/forum?id=kSR-_SVzDR-
+- Code: https://github.com/csZcWu/GKMNet
+- Tags: Defocus Deblurring
+
 <a name="VideoDeblurring"></a>
 ## Video Deblurring
 
@@ -139,6 +144,9 @@ A Collection of Papers and Codes in NeurIPS2021 related to Low-Level Vision
 <a name="Dehazing"></a>
 # Dehazing - 去雾
 
+**Learning to dehaze with polarization**
+- Paper: https://openreview.net/forum?id=Ua9Vi0QqwD4
+- Code: https://github.com/fourson/Learning-to-dehaze-with-polarization
 
 <a name="Demosaicing"></a>
 # Demosaicing - 去马赛克
