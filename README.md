@@ -17,8 +17,8 @@ A Collection of Papers and Codes in NeurIPS2021 related to Low-Level Vision
 
 - [2.Super Resolution](#SuperResolution)
   - [Image Super Resolution](#ImageSuperResolution)
-  - [Video Super Resolution](#VideoSuperResolution)
-- [3.Image Rescaling](#Rescaling)
+  - [Video Super Resolution]
+- [3.Image Rescaling]
 
 - [4.Denoising](#Denoising)
   - [Image Denoising](#ImageDenoising)
@@ -26,15 +26,15 @@ A Collection of Papers and Codes in NeurIPS2021 related to Low-Level Vision
 
 - [5.Deblurring](#Deblurring)
   - [Image Deblurring](#ImageDeblurring)
-  - [Video Deblurring](#VideoDeblurring)
+  - [Video Deblurring]
 
-- [6.Deraining](#Deraining)
+- [6.Deraining]
 
 - [7.Dehazing](#Dehazing)
 
-- [8.Demosaicing](#Demosaicing)
+- [8.Demosaicing]
 
-- [9.HDR Imaging / Multi-Exposure Image Fusion](#HDR)
+- [9.HDR Imaging / Multi-Exposure Image Fusion]
 
 - [10.Frame Interpolation](#FrameInterpolation)
 
@@ -51,7 +51,7 @@ A Collection of Papers and Codes in NeurIPS2021 related to Low-Level Vision
 
 - [16.Image Compression](#ImageCompression)
 
-- [17.Image Quality Assessment](#ImageQualityAssessment)
+- [17.Image Quality Assessment]
 
 - [18.Style Transfer](#StyleTransfer)
 
