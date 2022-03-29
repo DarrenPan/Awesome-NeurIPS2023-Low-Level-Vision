@@ -65,10 +65,7 @@ A Collection of Papers and Codes in NeurIPS2021 related to Low-Level Vision
 
 
 
-**Panini-Net: GAN Prior based Degradation-Aware Feature Interpolation for Face Restoration**
-- Paper: https://aaai-2022.virtualchair.net/poster_aaai4252
-- Code: https://github.com/wyhuai/Panini-Net
-- Tags: Face Restoration
+
 
 <a name="BurstRestoration"></a>
 ## Burst Restoration
@@ -82,6 +79,31 @@ A Collection of Papers and Codes in NeurIPS2021 related to Low-Level Vision
 <a name="ImageSuperResolution"></a>
 ## Image Super Resolution
 
+**Uncertainty-Driven Loss for Single Image Super-Resolution**
+- Paper: https://openreview.net/forum?id=MXmmuhJYPdU
+- Code: https://github.com/QianNing0/UDL
+
+**Aligned Structured Sparsity Learning for Efficient Image Super-Resolution**
+- Paper: https://openreview.net/forum?id=zAuDbrHC6fq
+- Code: https://github.com/MingSun-Tse/ASSL
+
+**Finding Discriminative Filters for Specific Degradations in Blind Super-Resolution**
+- Paper: https://openreview.net/forum?id=az0BBDjDvwD
+- Code: https://github.com/TencentARC/FAIG
+- Tags: Blind SR
+
+**Spectrum-to-Kernel Translation for Accurate Blind Image Super-Resolution**
+- Paper: https://openreview.net/forum?id=94Sj1CcC_Jl
+- Tags: Blind SR
+
+**Implicit Transformer Network for Screen Content Image Continuous Super-Resolution**
+- Paper: https://openreview.net/forum?id=x4t0fxWPNdi
+- Code: https://github.com/codyshen0000/ITSRN
+- Tags: Screen Content Image Continuous SR at arbitrary ratios
+
+**Spatial-Temporal Super-Resolution of Satellite Imagery via Conditional Pixel Synthesis**
+- Paper: https://openreview.net/forum?id=IKz9uYkf3vZ
+- Code: https://github.com/KellyYutongHe/satellite-pixel-synthesis-pytorch
 
 <a name="VideoSuperResolution"></a>
 ## Video Super Resolution
