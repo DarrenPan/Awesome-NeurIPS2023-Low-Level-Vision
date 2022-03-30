@@ -22,7 +22,7 @@ A Collection of Papers and Codes in NeurIPS2021 related to Low-Level Vision
 
 - [4.Denoising](#Denoising)
   - [Image Denoising](#ImageDenoising)
-  - [Video Denoising](#VideoDenoising)
+  - [Video Denoising]
 
 - [5.Deblurring](#Deblurring)
   - [Image Deblurring](#ImageDeblurring)
@@ -119,6 +119,13 @@ A Collection of Papers and Codes in NeurIPS2021 related to Low-Level Vision
 
 <a name="ImageDenoising"></a>
 ## Image Denoising
+
+**Adaptive Denoising via GainTuning**
+- Paper: https://openreview.net/forum?id=0BHU7WvZ29
+- Code: https://github.com/sreyas-mohan/gaintuning
+
+**Noise2Score: Tweedie’s Approach to Self-Supervised Image Denoising without Clean Images**
+- Paper: https://openreview.net/forum?id=ZqEUs3sTRU0
 
 <a name="VideoDenoising"></a>
 ## Video Denoising
