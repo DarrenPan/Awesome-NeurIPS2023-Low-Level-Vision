@@ -12,47 +12,20 @@ A Collection of Papers and Codes in NeurIPS2021 related to Low-Level Vision
 ## Catalogue
 
 - [1.Image Restoration](#ImageRetoration)
-  - [Burst Restoration](#BurstRestoration)
-  - [Video Restoration](#VideoRestoration)
 
 - [2.Super Resolution](#SuperResolution)
   - [Image Super Resolution](#ImageSuperResolution)
-  - [Video Super Resolution]
-- [3.Image Rescaling]
 
 - [4.Denoising](#Denoising)
   - [Image Denoising](#ImageDenoising)
-  - [Video Denoising]
 
 - [5.Deblurring](#Deblurring)
   - [Image Deblurring](#ImageDeblurring)
-  - [Video Deblurring]
-
-- [6.Deraining]
 
 - [7.Dehazing](#Dehazing)
 
-- [8.Demosaicing]
-
-- [9.HDR Imaging / Multi-Exposure Image Fusion]
-
-- [10.Frame Interpolation]
-
-- [11.Image Enhancement]
-  - [Low-Light Image Enhancement]
-
-- [12.Image Harmonization]
-
-- [13.Image Completion/Inpainting]
-
-- [14.Image Matting]
-
-- [15.Shadow Removal]
-
 - [16.Image Compression](#ImageCompression)
   - [Video Compression](#VideoCompression)
-
-- [17.Image Quality Assessment]
 
 - [18.Style Transfer](#StyleTransfer)
 
@@ -64,15 +37,16 @@ A Collection of Papers and Codes in NeurIPS2021 related to Low-Level Vision
 <a name="ImageRetoration"></a>
 # Image Restoration - 图像恢复
 
+**Functional Neural Networks for Parametric Image Restoration Problems**
+- Paper: https://openreview.net/forum?id=MMZ4djXrwbu
 
+**Unfolding Taylor's Approximations for Image Restoration**
+- Paper: https://openreview.net/forum?id=8vwDIC9pEb
 
-
-
-<a name="BurstRestoration"></a>
-## Burst Restoration
-
-<a name="VideoRestoration"></a>
-## Video Restoration
+**A Trainable Spectral-Spatial Sparse Coding Model for Hyperspectral Image Restoration**
+- Paper: https://openreview.net/forum?id=8Yrcy55iHE
+- Code: https://github.com/inria-thoth/T3SC
+- Tags: Hyperspectral Image Restoration
 
 
 <a name="SuperResolution"></a>
