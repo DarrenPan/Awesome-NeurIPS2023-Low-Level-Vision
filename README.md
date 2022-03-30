@@ -36,20 +36,21 @@ A Collection of Papers and Codes in NeurIPS2021 related to Low-Level Vision
 
 - [9.HDR Imaging / Multi-Exposure Image Fusion]
 
-- [10.Frame Interpolation](#FrameInterpolation)
+- [10.Frame Interpolation]
 
-- [11.Image Enhancement](#Enhancement)
-  - [Low-Light Image Enhancement](#LowLight)
+- [11.Image Enhancement]
+  - [Low-Light Image Enhancement]
 
-- [12.Image Harmonization](#Harmonization)
+- [12.Image Harmonization]
 
-- [13.Image Completion/Inpainting](#Inpainting)
+- [13.Image Completion/Inpainting]
 
-- [14.Image Matting](#Matting)
+- [14.Image Matting]
 
-- [15.Shadow Removal](#ShadowRemoval)
+- [15.Shadow Removal]
 
 - [16.Image Compression](#ImageCompression)
+  - [Video Compression](#VideoCompression)
 
 - [17.Image Quality Assessment]
 
@@ -187,8 +188,16 @@ A Collection of Papers and Codes in NeurIPS2021 related to Low-Level Vision
 <a name="ImageCompression"></a>
 # Image Compression - 图像压缩
 
+**Pragmatic Image Compression for Human-in-the-Loop Decision-Making**
+- Paper: https://openreview.net/forum?id=ClwfZc4ooKM
+- Code: https://github.com/rddy/pico
 
+<a name="VideoCompression"></a>
+## Video Compression
 
+**Deep Contextual Video Compression**
+- Paper: https://openreview.net/forum?id=evqzNxmXsl3
+- Code: https://github.com/DeepMC-DCVC/DCVC
 
 <a name="ImageQualityAssessment"></a>
 # Image Quality Assessment - 图像质量评价
