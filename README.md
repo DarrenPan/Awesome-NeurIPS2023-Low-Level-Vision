@@ -80,13 +80,6 @@ A Collection of Papers and Codes in NeurIPS2021 related to Low-Level Vision
 - Paper: https://openreview.net/forum?id=IKz9uYkf3vZ
 - Code: https://github.com/KellyYutongHe/satellite-pixel-synthesis-pytorch
 
-<a name="VideoSuperResolution"></a>
-## Video Super Resolution
-
-
-<a name="Rescaling"></a>
-# Image Rescaling - 图像缩放
-
 
 <a name="Denoising"></a>
 # Denoising - 去噪
@@ -101,9 +94,6 @@ A Collection of Papers and Codes in NeurIPS2021 related to Low-Level Vision
 **Noise2Score: Tweedie’s Approach to Self-Supervised Image Denoising without Clean Images**
 - Paper: https://openreview.net/forum?id=ZqEUs3sTRU0
 
-<a name="VideoDenoising"></a>
-## Video Denoising
-
 
 <a name="Deblurring"></a>
 # Deblurring - 去模糊
@@ -115,13 +105,6 @@ A Collection of Papers and Codes in NeurIPS2021 related to Low-Level Vision
 - Code: https://github.com/csZcWu/GKMNet
 - Tags: Defocus Deblurring
 
-<a name="VideoDeblurring"></a>
-## Video Deblurring
-
-
-<a name="Deraining"></a>
-# Deraining - 去雨
-
 
 <a name="Dehazing"></a>
 # Dehazing - 去雾
@@ -129,41 +112,6 @@ A Collection of Papers and Codes in NeurIPS2021 related to Low-Level Vision
 **Learning to dehaze with polarization**
 - Paper: https://openreview.net/forum?id=Ua9Vi0QqwD4
 - Code: https://github.com/fourson/Learning-to-dehaze-with-polarization
-
-<a name="Demosaicing"></a>
-# Demosaicing - 去马赛克
-
-
- <a name="HDR"></a>
-# HDR Imaging / Multi-Exposure Image Fusion - HDR图像生成 / 多曝光图像融合
-
-
-<a name="FrameInterpolation"></a>
-# Frame Interpolation - 插帧
-
-<a name="Enhancement"></a>
-# Image Enhancement - 图像增强
-
-<a name="LowLight"></a>
-## Low-Light Image Enhancement
-
-
-<a name="Harmonization"></a>
-# Image Harmonization/Composition - 图像协调/图像合成
-
-
-<a name="Inpainting"></a>
-# Image Completion/Inpainting - 图像修复
-
-
-<a name="Matting"></a>
-# Image Matting - 图像抠图
-
-
-
-<a name="ShadowRemoval"></a>
-# Shadow Removal - 阴影消除
-
 
 
 <a name="ImageCompression"></a>
@@ -179,9 +127,6 @@ A Collection of Papers and Codes in NeurIPS2021 related to Low-Level Vision
 **Deep Contextual Video Compression**
 - Paper: https://openreview.net/forum?id=evqzNxmXsl3
 - Code: https://github.com/DeepMC-DCVC/DCVC
-
-<a name="ImageQualityAssessment"></a>
-# Image Quality Assessment - 图像质量评价
 
 
 <a name="StyleTransfer"></a>
