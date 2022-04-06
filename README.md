@@ -16,22 +16,22 @@ A Collection of Papers and Codes in NeurIPS2021 related to Low-Level Vision
 - [2.Super Resolution](#SuperResolution)
   - [Image Super Resolution](#ImageSuperResolution)
 
-- [4.Denoising](#Denoising)
+- [3.Denoising](#Denoising)
   - [Image Denoising](#ImageDenoising)
 
-- [5.Deblurring](#Deblurring)
+- [4.Deblurring](#Deblurring)
   - [Image Deblurring](#ImageDeblurring)
 
-- [7.Dehazing](#Dehazing)
+- [5.Dehazing](#Dehazing)
 
-- [16.Image Compression](#ImageCompression)
+- [6.Image Compression](#ImageCompression)
   - [Video Compression](#VideoCompression)
 
-- [18.Style Transfer](#StyleTransfer)
+- [7.Style Transfer](#StyleTransfer)
 
-- [19.Image Editing](#ImageEditing)
+- [8.Image Editing](#ImageEditing)
 
-- [20.Image Generation/Synthesis/ Image-to-Image Translation](#ImageGeneration)
+- [9.Image Generation/Synthesis/ Image-to-Image Translation](#ImageGeneration)
   - [Video Generation](#VideoGeneration)
 
 <a name="ImageRetoration"></a>
