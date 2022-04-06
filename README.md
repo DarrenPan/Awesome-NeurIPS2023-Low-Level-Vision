@@ -132,17 +132,49 @@ A Collection of Papers and Codes in NeurIPS2021 related to Low-Level Vision
 <a name="StyleTransfer"></a>
 # Style Transfer - 风格迁移
 
+**Artistic Style Transfer with Internal-external Learning and Contrastive Learning**
+- Paper: https://openreview.net/forum?id=hm0i-cunzGW
+- Code: https://github.com/HalbertCH/IEContraAST
 
 
 <a name="ImageEditing"></a>
 # Image Editing - 图像编辑
 
+**EditGAN: High-Precision Semantic Image Editing**
+- Paper: https://openreview.net/forum?id=jLHWRxwc7_f
+- Code: https://github.com/nv-tlabs/editGAN_release
+
 
 <a name=ImageGeneration></a>
 # Image Generation/Synthesis / Image-to-Image Translation - 图像生成/合成/转换
 
+**CogView: Mastering Text-to-Image Generation via Transformer**
+- Paper: https://openreview.net/forum?id=cnWSyJNmeCE
+- Code: https://github.com/THUDM/CogView
+
+**ImageBART: Bidirectional Context with Multinomial Diffusion for Autoregressive Image Synthesis**
+- Paper: https://openreview.net/forum?id=-1AAgrS5FF
+- Code: https://github.com/CompVis/imagebart
+
+**Diffusion Models Beat GANs on Image Synthesis**
+- Paper: https://openreview.net/forum?id=AAWuCvzaVt
+- Code: https://github.com/openai/guided-diffusion
+
+**Image Generation using Continuous Filter Atoms**
+- Paper: https://openreview.net/forum?id=877bJocr-w
+
+**UFC-BERT: Unifying Multi-Modal Controls for Conditional Image Synthesis**
+- Paper: https://openreview.net/forum?id=iEEAPq3TUEZ
+
+**Improving Visual Quality of Image Synthesis by A Token-based Generator with Transformers**
+- Paper: https://openreview.net/forum?id=lGoKo9WS2A_
+
+**Breaking the Dilemma of Medical Image-to-image Translation**
+- Paper: https://openreview.net/forum?id=C0GmZH2RnVR
 
 <a name="VideoGeneration"></a>
 ## Video Generation
 
-
+**CCVS: Context-aware Controllable Video Synthesis**
+- Paper: https://openreview.net/forum?id=VvGIT6AOGsx
+- Code: https://github.com/16lemoing/ccvs
