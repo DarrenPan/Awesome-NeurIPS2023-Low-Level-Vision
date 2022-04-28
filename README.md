@@ -94,6 +94,9 @@ A Collection of Papers and Codes in NeurIPS2021 related to Low-Level Vision
 **Noise2Score: Tweedie’s Approach to Self-Supervised Image Denoising without Clean Images**
 - Paper: https://openreview.net/forum?id=ZqEUs3sTRU0
 
+**Learning to Generate Realistic Noisy Images via Pixel-level Noise-aware Adversarial Training**
+- Paper: https://proceedings.neurips.cc/paper/2021/file/1a5b1e4daae265b790965a275b53ae50-Paper.pdf
+- Code: https://github.com/caiyuanhao1998/PNGAN
 
 <a name="Deblurring"></a>
 # Deblurring - 去模糊
