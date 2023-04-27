@@ -1,52 +1,69 @@
-# Awesome-NeurIPS2021-Low-Level-Vision
-A Collection of Papers and Codes in NeurIPS2021 related to Low-Level Vision
+# Awesome-NeurIPS2022-Low-Level-Vision
+A Collection of Papers and Codes in NeurIPS2022 related to Low-Level Vision
 
 ## Related collections for low-level vision
-- [CVPR2022-Low-Level-Vision](https://github.com/DarrenPan/CVPR2022-Low-Level-Vision)
+- [Awesome-CVPR2023/2022-Low-Level-Vision](https://github.com/DarrenPan/Awesome-CVPR2023-Low-Level-Vision)
+- [Awesome-ECCV2022-Low-Level-Vision](https://github.com/DarrenPan/Awesome-ECCV2022-Low-Level-Vision)
 - [Awesome-AAAI2022-Low-Level-Vision](https://github.com/DarrenPan/Awesome-AAAI2022-Low-Level-Vision)
 - [Awesome-ICCV2021-Low-Level-Vision](https://github.com/Kobaayyy/Awesome-ICCV2021-Low-Level-Vision)
-- [Awesome-CVPR2021/CVPR2020-Low-Level-Vision](https://github.com/Kobaayyy/Awesome-CVPR2021-CVPR2020-Low-Level-Vision)
+- [Awesome-CVPR2021/2020-Low-Level-Vision](https://github.com/Kobaayyy/Awesome-CVPR2021-CVPR2020-Low-Level-Vision)
 - [Awesome-ECCV2020-Low-Level-Vision](https://github.com/Kobaayyy/Awesome-ECCV2020-Low-Level-Vision)
 
 
 ## Catalogue
 
-- [1.Image Restoration](#ImageRetoration)
+- [Image Restoration](#ImageRetoration)
+  - [Video Restoration](#VideoRestoration)
 
-- [2.Super Resolution](#SuperResolution)
+- [Super Resolution](#SuperResolution)
   - [Image Super Resolution](#ImageSuperResolution)
+  - [Video Super Resolution](#VideoSuperResolution)
 
-- [3.Denoising](#Denoising)
+- [Denoising](#Denoising)
   - [Image Denoising](#ImageDenoising)
 
-- [4.Deblurring](#Deblurring)
-  - [Image Deblurring](#ImageDeblurring)
+- [Deraining](#Deraining)
 
-- [5.Dehazing](#Dehazing)
+- [Image Completion/Inpainting](#Inpainting)
 
-- [6.Image Compression](#ImageCompression)
-  - [Video Compression](#VideoCompression)
+- [Image Compression](#ImageCompression)
 
-- [7.Style Transfer](#StyleTransfer)
-
-- [8.Image Editing](#ImageEditing)
-
-- [9.Image Generation/Synthesis/ Image-to-Image Translation](#ImageGeneration)
+- [Image Generation/Synthesis/ Image-to-Image Translation](#ImageGeneration)
   - [Video Generation](#VideoGeneration)
 
 <a name="ImageRetoration"></a>
 # Image Restoration - 图像恢复
 
-**Functional Neural Networks for Parametric Image Restoration Problems**
-- Paper: https://openreview.net/forum?id=MMZ4djXrwbu
+**Cross Aggregation Transformer for Image Restoration**
+- Paper: https://github.com/zhengchen1999/CAT 
+- Code: https://arxiv.org/abs/2211.13654
 
-**Unfolding Taylor's Approximations for Image Restoration**
-- Paper: https://openreview.net/forum?id=8vwDIC9pEb
+**Stochastic Window Transformer for Image Restoration**
+- Paper: https://openreview.net/forum?id=0ucMtEKCihU
+- Code: https://github.com/jiexiaou/Stoformer
 
-**A Trainable Spectral-Spatial Sparse Coding Model for Hyperspectral Image Restoration**
-- Paper: https://openreview.net/forum?id=8Yrcy55iHE
-- Code: https://github.com/inria-thoth/T3SC
-- Tags: Hyperspectral Image Restoration
+**Denoising Diffusion Restoration Models**
+- Paper: https://arxiv.org/abs/2201.11793
+- Code: https://github.com/bahjat-kawar/ddrm
+- Tags: Diffusion Model
+
+**Towards Robust Blind Face Restoration with Codebook Lookup Transformer**
+- Paper：https://arxiv.org/abs/2206.11253
+- Code: https://github.com/sczhou/CodeFormer
+
+**Self-Supervised Image Restoration with Blurry and Noisy Pairs**
+- Paper: https://arxiv.org/abs/2211.07317
+- Code: https://github.com/cszhilu1998/SelfIR
+
+**Deep Fourier Up-Sampling**
+- Paper: https://openreview.net/forum?id=NIrbtCdxfBl
+
+<a name="VideoRestoration"></a>
+## Video Restoration
+
+**Recurrent Video Restoration Transformer with Guided Deformable Attention**
+- Paper: https://openreview.net/forum?id=GKfNB4BegL
+- Code: https://github.com/JingyunLiang/RVRT
 
 
 <a name="SuperResolution"></a>
@@ -54,31 +71,18 @@ A Collection of Papers and Codes in NeurIPS2021 related to Low-Level Vision
 <a name="ImageSuperResolution"></a>
 ## Image Super Resolution
 
-**Uncertainty-Driven Loss for Single Image Super-Resolution**
-- Paper: https://openreview.net/forum?id=MXmmuhJYPdU
-- Code: https://github.com/QianNing0/UDL
+**ShuffleMixer: An Efficient ConvNet for Image Super-Resolution**
+- Paper: https://openreview.net/forum?id=ZK6lzx0jqdZ
 
-**Aligned Structured Sparsity Learning for Efficient Image Super-Resolution**
-- Paper: https://openreview.net/forum?id=zAuDbrHC6fq
-- Code: https://github.com/MingSun-Tse/ASSL
+<a name="VideoSuperResolution"></a>
+## Video Super Resolution
 
-**Finding Discriminative Filters for Specific Degradations in Blind Super-Resolution**
-- Paper: https://openreview.net/forum?id=az0BBDjDvwD
-- Code: https://github.com/TencentARC/FAIG
-- Tags: Blind SR
+**AnimeSR: Learning Real-World Super-Resolution Models for Animation Videos**
+- Paper: https://openreview.net/forum?id=4kjQZTNz-NH
 
-**Spectrum-to-Kernel Translation for Accurate Blind Image Super-Resolution**
-- Paper: https://openreview.net/forum?id=94Sj1CcC_Jl
-- Tags: Blind SR
-
-**Implicit Transformer Network for Screen Content Image Continuous Super-Resolution**
-- Paper: https://openreview.net/forum?id=x4t0fxWPNdi
-- Code: https://github.com/codyshen0000/ITSRN
-- Tags: Screen Content Image Continuous SR at arbitrary ratios
-
-**Spatial-Temporal Super-Resolution of Satellite Imagery via Conditional Pixel Synthesis**
-- Paper: https://openreview.net/forum?id=IKz9uYkf3vZ
-- Code: https://github.com/KellyYutongHe/satellite-pixel-synthesis-pytorch
+**Rethinking Alignment in Video Super-Resolution Transformers**
+- Paper: https://arxiv.org/abs/2207.08494
+- Code: https://github.com/XPixelGroup/RethinkVSRAlignment
 
 
 <a name="Denoising"></a>
@@ -87,97 +91,211 @@ A Collection of Papers and Codes in NeurIPS2021 related to Low-Level Vision
 <a name="ImageDenoising"></a>
 ## Image Denoising
 
-**Adaptive Denoising via GainTuning**
-- Paper: https://openreview.net/forum?id=0BHU7WvZ29
-- Code: https://github.com/sreyas-mohan/gaintuning
-
-**Noise2Score: Tweedie’s Approach to Self-Supervised Image Denoising without Clean Images**
-- Paper: https://openreview.net/forum?id=ZqEUs3sTRU0
-
-**Learning to Generate Realistic Noisy Images via Pixel-level Noise-aware Adversarial Training**
-- Paper: https://proceedings.neurips.cc/paper/2021/file/1a5b1e4daae265b790965a275b53ae50-Paper.pdf
-- Code: https://github.com/caiyuanhao1998/PNGAN
-
-<a name="Deblurring"></a>
-# Deblurring - 去模糊
-<a name="ImageDeblurring"></a>
-## Image Deblurring
-
-**Gaussian Kernel Mixture Network for Single Image Defocus Deblurring**
-- Paper: https://openreview.net/forum?id=kSR-_SVzDR-
-- Code: https://github.com/csZcWu/GKMNet
-- Tags: Defocus Deblurring
+**Multi-Scale Adaptive Network for Single Image Denoising**
+- Paper: https://openreview.net/forum?id=HFm7AxNa9Wo
+- Code: https://github.com/XLearning-SCU/2022-NeurIPS-MSANet
 
 
-<a name="Dehazing"></a>
-# Dehazing - 去雾
+<a name="Deraining"></a>
+# Deraining - 去雨
 
-**Learning to dehaze with polarization**
-- Paper: https://openreview.net/forum?id=Ua9Vi0QqwD4
-- Code: https://github.com/fourson/Learning-to-dehaze-with-polarization
+**Generative Status Estimation and Information Decoupling for Image Rain Removal**
+- Paper: https://openreview.net/forum?id=C2o5DeL_8L1
 
+
+<a name="Inpainting"></a>
+# Image Completion/Inpainting - 图像修复
+
+**Cross-Image Context for Single Image Inpainting**
+- Paper: https://openreview.net/forum?id=QfI_usBXNCM
+
+**Visual Prompting via Image Inpainting**
+- Paper: https://arxiv.org/abs/2209.00647
+- Code: https://github.com/amirbar/visual_prompting
+
+**Improving Diffusion Models for Inverse Problems using Manifold Constraints**
+- Paper: https://arxiv.org/abs/2206.00941
+- Code: https://github.com/HJ-harry/MCG_diffusion
+- Tags: image inpainting, colorization, and sparse-view computed tomography
 
 <a name="ImageCompression"></a>
 # Image Compression - 图像压缩
 
-**Pragmatic Image Compression for Human-in-the-Loop Decision-Making**
-- Paper: https://openreview.net/forum?id=ClwfZc4ooKM
-- Code: https://github.com/rddy/pico
+**Selective compression learning of latent representations for variable-rate image compression**
+- Paper: https://openreview.net/forum?id=xI5660uFUr
 
-<a name="VideoCompression"></a>
-## Video Compression
+**Multi-Sample Training for Neural Image Compression**
+- Paper: https://openreview.net/forum?id=wjSHd5nDeo
 
-**Deep Contextual Video Compression**
-- Paper: https://openreview.net/forum?id=evqzNxmXsl3
-- Code: https://github.com/DeepMC-DCVC/DCVC
+**Flexible Neural Image Compression via Code Editing**
+- Paper: https://openreview.net/forum?id=uV_VYGB3FCi
 
+**VCT: A Video Compression Transformer**
+- Paper: https://arxiv.org/abs/2206.07307
+- Code: https://github.com/google-research/google-research/tree/master/vct
 
-<a name="StyleTransfer"></a>
-# Style Transfer - 风格迁移
-
-**Artistic Style Transfer with Internal-external Learning and Contrastive Learning**
-- Paper: https://openreview.net/forum?id=hm0i-cunzGW
-- Code: https://github.com/HalbertCH/IEContraAST
-
-
-<a name="ImageEditing"></a>
-# Image Editing - 图像编辑
-
-**EditGAN: High-Precision Semantic Image Editing**
-- Paper: https://openreview.net/forum?id=jLHWRxwc7_f
-- Code: https://github.com/nv-tlabs/editGAN_release
 
 
 <a name=ImageGeneration></a>
 # Image Generation/Synthesis / Image-to-Image Translation - 图像生成/合成/转换
 
-**CogView: Mastering Text-to-Image Generation via Transformer**
-- Paper: https://openreview.net/forum?id=cnWSyJNmeCE
-- Code: https://github.com/THUDM/CogView
+## Text-to-Image / Text Guided / Multi-Modal
 
-**ImageBART: Bidirectional Context with Multinomial Diffusion for Autoregressive Image Synthesis**
-- Paper: https://openreview.net/forum?id=-1AAgrS5FF
-- Code: https://github.com/CompVis/imagebart
+**CogView2: Faster and Better Text-to-Image Generation via Hierarchical Transformers**
+- Paper: https://arxiv.org/abs/2204.14217
+- Code: https://github.com/THUDM/CogView2
 
-**Diffusion Models Beat GANs on Image Synthesis**
-- Paper: https://openreview.net/forum?id=AAWuCvzaVt
-- Code: https://github.com/openai/guided-diffusion
+**Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding**
+- Paper: https://openreview.net/forum?id=08Yk-n5l2Al
 
-**Image Generation using Continuous Filter Atoms**
-- Paper: https://openreview.net/forum?id=877bJocr-w
+**NUWA-Infinity: Autoregressive over Autoregressive Generation for Infinite Visual Synthesis**
+- Paper: https://arxiv.org/abs/2207.09814
+- Code: https://github.com/microsoft/NUWA
 
-**UFC-BERT: Unifying Multi-Modal Controls for Conditional Image Synthesis**
-- Paper: https://openreview.net/forum?id=iEEAPq3TUEZ
 
-**Improving Visual Quality of Image Synthesis by A Token-based Generator with Transformers**
-- Paper: https://openreview.net/forum?id=lGoKo9WS2A_
+## Image-to-Image / Image Guided
 
-**Breaking the Dilemma of Medical Image-to-image Translation**
-- Paper: https://openreview.net/forum?id=C0GmZH2RnVR
+**QC-StyleGAN - Quality Controllable Image Generation and Manipulation**
+- Paper: https://openreview.net/forum?id=AWeZdGJ89lC
+
+**Unsupervised Image-to-Image Translation with Density Changing Regularization**
+- Paper: https://openreview.net/forum?id=RNZ8JOmNaV4
+- Code: https://github.com/Mid-Push/Decent
+
+**EGSDE: Unpaired Image-to-Image Translation via Energy-Guided Stochastic Differential Equations**
+- Paper: https://arxiv.org/abs/2207.06635
+- Code: https://github.com/ML-GSAI/EGSDE
+
+**CHIMLE: Conditional Hierarchical IMLE for Multimodal Conditional Image Synthesis**
+- Paper: https://arxiv.org/abs/2211.14286
+- Code: https://github.com/niopeng/CHIMLE/tree/main/code
+- Tags: Colourization, SR, Decompression, Night-to-Day
+
+## Others for image generation
+
+**Draft-and-Revise: Effective Image Generation with Contextual RQ-Transformer**
+- Paper: https://openreview.net/forum?id=R5yl-ySZR0U
+
+**Few-shot Image Generation via Adaptation-Aware Kernel Modulation**
+- Paper: https://arxiv.org/abs/2210.16559
+- Code: https://github.com/yunqing-me/AdAM
+
+**MoVQ: Modulating Quantized Vectors for High-Fidelity Image Generation**
+- Paper: https://openreview.net/forum?id=NYF6jNTAui
+
+**Locally Hierarchical Auto-Regressive Modeling for Image Generation**
+- Paper: https://openreview.net/forum?id=Qb-AoSw4Jnm
+
+**Improving GANs with A Dynamic Discriminator**
+- Paper: https://arxiv.org/abs/2209.09897
+- Code: https://github.com/genforce/dynamicd
+
+**Instability and Local Minima in GAN Training with Kernel Discriminators**
+- Paper: https://openreview.net/forum?id=GyWsthkJ1E2
+
+**FreGAN: Exploiting Frequency Components for Training GANs under Limited Data**
+- Paper: https://openreview.net/forum?id=tWBMPooTayE
+- Code: https://github.com/kobeshegu/FreGAN_NeurIPS2022
+
+**DigGAN: Discriminator gradIent Gap Regularization for GAN Training with Limited Data**
+- Paper: https://openreview.net/forum?id=azBVn74t_2
+- Code: https://github.com/AilsaF/DigGAN
+
+**UniGAN: Reducing Mode Collapse in GANs using a Uniform Generator**
+- Paper: https://openreview.net/forum?id=IPcgkUgw3t1
+
+**Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models**
+- Paper: https://arxiv.org/abs/2211.02048
+- Code: https://github.com/lmxyy/sige
+
+**HyperDomainNet: Universal Domain Adaptation for Generative Adversarial Networks**
+- Paper: https://arxiv.org/abs/2210.08884
+- Code: https://github.com/MACderRu/HyperDomainNet
+
+**Information-Theoretic GAN Compression with Variational Energy-based Model**
+- Paper: https://openreview.net/forum?id=sRKNkpUMQNr
+
+**Masked Generative Adversarial Networks are Data-Efficient Generation Learners**
+- Paper: https://openreview.net/forum?id=js2ssA77fX
+
+**Improving Generative Adversarial Networks via Adversarial Learning in Latent Space**
+- Paper: https://openreview.net/forum?id=Magl9CSHB87
+
+**MCL-GAN: Generative Adversarial Networks with Multiple Specialized Discriminators**
+- Paper: https://openreview.net/forum?id=CQaqJDWUGJ
+
+**Diffusion models as plug-and-play priors**
+- Paper: https://arxiv.org/abs/2206.09012
+- Code: https://github.com/AlexGraikos/diffusion_priors
+
+**On Analyzing Generative and Denoising Capabilities of Diffusion-based Deep Generative Models**
+- Paper: https://openreview.net/forum?id=nxl-IjnDCRo
+
+**Maximum Likelihood Training of Implicit Nonlinear Diffusion Model**
+- Paper: https://arxiv.org/abs/2205.13699
+- Code: https://github.com/byeonghu-na/INDM
+
+**Unsupervised Representation Learning from Pre-trained Diffusion Probabilistic Models**
+- Paper: https://arxiv.org/abs/2212.12990
+- Code: https://github.com/ckczzj/PDAE
+
+**Deep Equilibrium Approaches to Diffusion Models**
+- Paper: https://arxiv.org/abs/2210.12867
+- Code: https://github.com/locuslab/deq-ddim
+
+**Retrieval-Augmented Diffusion Models**
+- Paper: https://openreview.net/forum?id=Bqk9c0wBNrZ
+- Code: https://github.com/CompVis/retrieval-augmented-diffusion-models
+
+**DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps**
+- Paper: https://github.com/LuChengTHU/dpm-solver
+- Code: https://arxiv.org/abs/2206.00927
+
+**GENIE: Higher-Order Denoising Diffusion Solvers**
+- Paper: https://arxiv.org/abs/2210.05475
+- Code: https://github.com/nv-tlabs/GENIE
+
+**Elucidating the Design Space of Diffusion-Based Generative Models**
+- Paper: https://arxiv.org/abs/2206.00364
+- Code: https://github.com/NVlabs/edm
+
+**Wavelet Score-Based Generative Modeling**
+- Paper: https://openreview.net/forum?id=xZmjH3Pm2BK
+
+**Poisson Flow Generative Models**
+- Paper: https://arxiv.org/abs/2209.11178
+- Code: https://github.com/Newbeeer/Poisson_flow
+
+**Invertible Monotone Operators for Normalizing Flows**
+- Paper: https://arxiv.org/abs/2210.08176
+- Code: https://github.com/mlvlab/MonotoneFlows
+
+**Flowification: Everything is a normalizing flow**
+- Paper: https://openreview.net/forum?id=-jnE7sxuMm
 
 <a name="VideoGeneration"></a>
 ## Video Generation
 
-**CCVS: Context-aware Controllable Video Synthesis**
-- Paper: https://openreview.net/forum?id=VvGIT6AOGsx
-- Code: https://github.com/16lemoing/ccvs
+**MCVD: Masked Conditional Video Diffusion for Prediction, Generation, and Interpolation**
+- Paper: https://arxiv.org/abs/2205.09853
+- Code: https://github.com/voletiv/mcvd-pytorch
+
+**Video Diffusion Models**
+- Paper: https://openreview.net/forum?id=f3zNgKga_ep
+
+**Flexible Diffusion Modeling of Long Videos**
+- Paper: https://openreview.net/forum?id=0RTJcuvHtIu
+
+**Audio-Driven Co-Speech Gesture Video Generation**
+- Paper: https://arxiv.org/abs/2212.02350
+- Code: https://github.com/alvinliu0/ANGIE
+
+**Generating Long Videos of Dynamic Scenes**
+- Paper: https://arxiv.org/abs/2206.03429
+- Code: https://github.com/NVlabs/long-video-gan
+
+# Others
+
+**Conditional Diffusion Process for Inverse Halftoning**
+- Paper: https://openreview.net/forum?id=EEcFW47sktI
+- Tags: Inverse halftoning
