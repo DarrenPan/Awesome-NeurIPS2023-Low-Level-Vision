@@ -15,7 +15,6 @@ A Collection of Papers and Codes in NeurIPS2023 related to Low-Level Vision
 ## Overview
 
 - [Image Restoration](#image-restoration)
-  - [Video Restoration](#video-restoration)
 
 - [Super Resolution](#super-resolution)
   - [Image Super Resolution](#image-super-resolution)
@@ -62,19 +61,33 @@ A Collection of Papers and Codes in NeurIPS2023 related to Low-Level Vision
 <a name="ImageRetoration"></a>
 # Image Restoration
 
+**Training Your Image Restoration Network Better with Random Weight Network as Optimization Function**
+- Paper: https://openreview.net/forum?id=uv3ge0goPa
 
+**PromptIR: Prompting for All-in-One Blind Image Restoration**
+- Paper: https://arxiv.org/abs/2306.13090
+- Code: https://github.com/va1shn9v/PromptIR
+- Tags: All-in-One, Prompt
 
-## Image Reconstruction
+**PGDiff: Guiding Diffusion Models for Versatile Face Restoration via Partial Guidance**
+- Paper: https://arxiv.org/abs/2309.10810
+- Code: https://github.com/pq-yang/PGDiff
+- Tags: Diffusion
 
+**PromptRestorer: A Prompting Image Restoration Method with Degradation Perception**
+- Paper: https://openreview.net/forum?id=nIaNgaQvsV
+- Tags: Prompt
 
-<a name="BurstRestoration"></a>
-## Burst Restoration
+**Convergent Bregman Plug-and-Play Image Restoration for Poisson Inverse Problems**
+- Paper: https://arxiv.org/abs/2306.03466
 
+**A Unified Conditional Framework for Diffusion-based Image Restoration**
+- Paper: https://arxiv.org/abs/2305.20049
+- Code: https://github.com/zhangyi-3/UCDIR
 
-
-<a name="VideoRestoration"></a>
-## Video Restoration
-
+**Deep Optimal Transport: A Practical Algorithm for Photo-realistic Image Restoration**
+- Paper: https://arxiv.org/abs/2306.02342
+- Tags: Real
 
 
 [[Back-to-Overview](#overview)]
