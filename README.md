@@ -97,7 +97,29 @@ A Collection of Papers and Codes in NeurIPS2023 related to Low-Level Vision
 <a name="ImageSuperResolution"></a>
 ## Image Super Resolution
 
+**QuantSR: Accurate Low-bit Quantization for Efficient Image Super-Resolution**
+- Paper: https://openreview.net/forum?id=3gamyee9Yh
+- Code: https://github.com/htqin/QuantSR
 
+**Efficient Test-Time Adaptation for Super-Resolution with Second-Order Degradation and Reconstruction**
+- Paper: https://arxiv.org/abs/2310.19011
+- Code: https://github.com/dengzeshuai/srtta
+
+**AND: Adversarial Neural Degradation for Learning Blind Image Super-Resolution**
+- Paper: https://openreview.net/forum?id=s8QsYV1VZ2
+
+**ResShift: Efficient Diffusion Model for Image Super-resolution by Residual Shifting**
+- Paper: https://arxiv.org/abs/2307.12348
+- Code: https://github.com/zsyOAOA/ResShift
+
+**Learning Re-sampling Methods with Parameter Attribution for Image Super-resolution**
+- Paper: https://openreview.net/forum?id=f7wFwPJwBe
+
+**Real-World Image Super-Resolution as Multi-Task Learning**
+- Paper: https://openreview.net/forum?id=8SCz56sUGP
+
+**Spatio-Angular Convolutions for Super-resolution in Diffusion MRI**
+- Paper: https://arxiv.org/abs/2306.00854
 
 <a name="VideoSuperResolution"></a>
 ## Video Super Resolution
