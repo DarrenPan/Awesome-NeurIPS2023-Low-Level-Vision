@@ -17,16 +17,10 @@ A Collection of Papers and Codes in NeurIPS2023 related to Low-Level Vision
 - [Image Restoration](#image-restoration)
 
 - [Super Resolution](#super-resolution)
-  - [Image Super Resolution](#image-super-resolution)
-  - [Video Super Resolution](#video-super-resolution)
-- [Image Rescaling](#image-rescaling)
 
 - [Denoising](#denoising)
-  - [Image Denoising](#image-denoising)
 
 - [Deblurring](#deblurring)
-  - [Image Deblurring](#image-deblurring)
-  - [Video Deblurring](#video-deblurring)
 
 - [Deraining](#deraining)
 
@@ -94,12 +88,11 @@ A Collection of Papers and Codes in NeurIPS2023 related to Low-Level Vision
 
 <a name="SuperResolution"></a>
 # Super Resolution
-<a name="ImageSuperResolution"></a>
-## Image Super Resolution
 
 **QuantSR: Accurate Low-bit Quantization for Efficient Image Super-Resolution**
 - Paper: https://openreview.net/forum?id=3gamyee9Yh
 - Code: https://github.com/htqin/QuantSR
+- Tags: Efficient
 
 **Efficient Test-Time Adaptation for Super-Resolution with Second-Order Degradation and Reconstruction**
 - Paper: https://arxiv.org/abs/2310.19011
@@ -107,52 +100,50 @@ A Collection of Papers and Codes in NeurIPS2023 related to Low-Level Vision
 
 **AND: Adversarial Neural Degradation for Learning Blind Image Super-Resolution**
 - Paper: https://openreview.net/forum?id=s8QsYV1VZ2
+- Tag: Blind
 
 **ResShift: Efficient Diffusion Model for Image Super-resolution by Residual Shifting**
 - Paper: https://arxiv.org/abs/2307.12348
 - Code: https://github.com/zsyOAOA/ResShift
+- Tags: Diffusion
 
 **Learning Re-sampling Methods with Parameter Attribution for Image Super-resolution**
 - Paper: https://openreview.net/forum?id=f7wFwPJwBe
 
 **Real-World Image Super-Resolution as Multi-Task Learning**
 - Paper: https://openreview.net/forum?id=8SCz56sUGP
+- Tags: Real
 
 **Spatio-Angular Convolutions for Super-resolution in Diffusion MRI**
 - Paper: https://arxiv.org/abs/2306.00854
-
-<a name="VideoSuperResolution"></a>
-## Video Super Resolution
-
-
-
-[[Back-to-Overview](#overview)]
-
-<a name="Rescaling"></a>
-# Image Rescaling
-
-
 
 [[Back-to-Overview](#overview)]
 
 <a name="Denoising"></a>
 # Denoising
 
-<a name="ImageDenoising"></a>
-## Image Denoising
-## Video Denoising
+**Normalization-Equivariant Neural Networks with Application to Image Denoising**
+- Paper: https://arxiv.org/abs/2306.05037
+- Code: https://github.com/sherbret/normalization_equivariant_nn/
+
+**PUCA: Patch-Unshuffle and Channel Attention for Enhanced Self-Supervised Image Denoising**
+- Paper: https://arxiv.org/abs/2310.10088
+- Code: https://github.com/HyemiEsme/PUCA
+
+**Unsupervised Image Denoising with Score Function**
+- Paper: https://arxiv.org/abs/2304.08384
 
 [[Back-to-Overview](#overview)]
 
 <a name="Deblurring"></a>
 # Deblurring
-<a name="ImageDeblurring"></a>
-## Image Deblurring
 
+**Hierarchical Integration Diffusion Model for Realistic Image Deblurring**
+- Paper: https://arxiv.org/abs/2305.12966
+- Code: https://github.com/zhengchen1999/HI-Diff
 
-<a name="VideoDeblurring"></a>
-## Video Deblurring
-
+**Enhancing Motion Deblurring in High-Speed Scenes with Spike Streams**
+- Paper: https://openreview.net/forum?id=cAyLnMxiTl
 
 [[Back-to-Overview](#overview)]
 
