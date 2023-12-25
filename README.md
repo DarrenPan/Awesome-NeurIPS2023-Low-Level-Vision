@@ -83,6 +83,10 @@ A Collection of Papers and Codes in NeurIPS2023 related to Low-Level Vision
 - Paper: https://arxiv.org/abs/2306.02342
 - Tags: Real
 
+## Video Restoration
+
+**Video Dynamics Prior: An Internal Learning Approach for Robust Video Enhancements**
+- Paper: https://arxiv.org/abs/2312.07835
 
 [[Back-to-Overview](#overview)]
 
@@ -150,33 +154,20 @@ A Collection of Papers and Codes in NeurIPS2023 related to Low-Level Vision
 <a name="Deraining"></a>
 # Deraining
 
-
-
-[[Back-to-Overview](#overview)]
-
-<a name="Dehazing"></a>
-# Dehazing
-
-
- [[Back-to-Overview](#overview)]
-
- <a name="HDR"></a>
-# HDR Imaging / Multi-Exposure Image Fusion
-
-
-[[Back-to-Overview](#overview)]
-
-<a name="FrameInterpolation"></a>
-# Frame Interpolation
-
-
+**Networks are Slacking Off: Understanding Generalization Problem in Image Deraining**
+- Paper: https://arxiv.org/abs/2305.15134
 
 [[Back-to-Overview](#overview)]
 
 <a name="Enhancement"></a>
 # Image Enhancement 
 
+**Transition-constant Normalization for Image Enhancement**
+- Paper: https://openreview.net/forum?id=GEWzHeHpLr
 
+**Global Structure-Aware Diffusion Process for Low-Light Image Enhancement**
+- Paper: https://arxiv.org/abs/2310.17577
+- Code: https://github.com/jinnh/GSAD
 
 [[Back-to-Overview](#overview)]
 
