@@ -24,19 +24,8 @@ A Collection of Papers and Codes in NeurIPS2023 related to Low-Level Vision
 
 - [Deraining](#deraining)
 
-- [Dehazing](#dehazing)
-
-- [HDR Imaging / Multi-Exposure Image Fusion](#hdr-imaging--multi-exposure-image-fusion)
-
-- [Frame Interpolation](#frame-interpolation)
-
 - [Image Enhancement](#image-enhancement)
-  - [Low-Light Image Enhancement](#low-light-image-enhancement)
-
-- [Image Harmonization](#image-harmonizationcomposition)
-
-- [Image Completion/Inpainting](#image-completioninpainting)
-
+  
 - [Image Matting](#image-matting)
 
 - [Image Compression](#image-compression)
@@ -171,31 +160,41 @@ A Collection of Papers and Codes in NeurIPS2023 related to Low-Level Vision
 
 [[Back-to-Overview](#overview)]
 
-<a name="Harmonization"></a>
-# Image Harmonization/Composition 
-
-
-[[Back-to-Overview](#overview)]
-
-<a name="Inpainting"></a>
-# Image Completion/Inpainting 
-
-
-[[Back-to-Overview](#overview)]
-
 <a name="Matting"></a>
 # Image Matting
 
+**BiMatting: Efficient Video Matting via Binarization**
+- Paper: https://openreview.net/forum?id=YbYQ0JEQ80
+- Code: https://github.com/htqin/BiMatting
 
 [[Back-to-Overview](#overview)]
 
 <a name="ImageCompression"></a>
 # Image Compression
 
+**Lossy Image Compression with Conditional Diffusion Models**
+- Paper: https://arxiv.org/abs/2209.06950
+- Code: https://github.com/buggyyang/CDC_compression
+
+**Idempotent Learned Image Compression with Right-Inverse**
+- Paper: https://openreview.net/forum?id=35dOU92OJM
+
+**Towards Efficient Image Compression Without Autoregressive Models**
+- Paper: https://openreview.net/forum?id=1ihGy9vAIg
+
+**Neural Image Compression: Generalization, Robustness, and Spectral Biases**
+- Paper: https://arxiv.org/abs/2307.08657
+- Code: https://github.com/klieberman/ood_nic
+
 
 ## Video Compression
 
+**On the Choice of Perception Loss Function for Learned Video Compression**
+- Paper: https://arxiv.org/abs/2305.19301
 
+**HiNeRV: Video Compression with Hierarchical Encoding-based Neural Representation**
+- Paper: https://arxiv.org/abs/2306.09818
+- Code: https://github.com/hmkx/HiNeRV
 
 [[Back-to-Overview](#overview)]
 
