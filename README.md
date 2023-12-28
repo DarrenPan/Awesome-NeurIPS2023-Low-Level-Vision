@@ -32,8 +32,6 @@ A Collection of Papers and Codes in NeurIPS2023 related to Low-Level Vision
 
 - [Image Quality Assessment](#image-quality-assessment)
 
-- [Style Transfer](#style-transfer)
-
 - [Image Editing](#image-editing)
 
 - [Image Generation/Synthesis/ Image-to-Image Translation](#image-generationsynthesis--image-to-image-translation)
@@ -186,7 +184,6 @@ A Collection of Papers and Codes in NeurIPS2023 related to Low-Level Vision
 - Paper: https://arxiv.org/abs/2307.08657
 - Code: https://github.com/klieberman/ood_nic
 
-
 ## Video Compression
 
 **On the Choice of Perception Loss Function for Learned Video Compression**
@@ -201,12 +198,13 @@ A Collection of Papers and Codes in NeurIPS2023 related to Low-Level Vision
 <a name="ImageQualityAssessment"></a>
 # Image Quality Assessment
 
+**Vulnerabilities in Video Quality Assessment Models: The Challenge of Adversarial Attacks**
+- Paper: https://arxiv.org/abs/2309.13609
+- Code: https://github.com/GZHU-DVL/AttackVQA
 
-[[Back-to-Overview](#overview)]
-
-<a name="StyleTransfer"></a>
-# Style Transfer
-
+**Assessor360: Multi-sequence Network for Blind Omnidirectional Image Quality Assessment**
+- Paper: https://arxiv.org/abs/2305.10983
+- Code: https://github.com/TianheWu/Assessor360
 
 [[Back-to-Overview](#overview)]
 
